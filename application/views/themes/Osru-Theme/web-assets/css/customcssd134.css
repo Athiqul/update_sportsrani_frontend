@@ -1,0 +1,47 @@
+    .play-button i {
+        display: block;
+        position: absolute;
+        width: 100%;
+        font-size: 20px;
+        height: 20px;
+        top: 50%;
+        left: 0;
+        margin-top: -10px;
+        text-align: center;
+        z-index: 2;
+        color: #fff;
+        vertical-align: middle;
+        line-height: 50px;
+    }
+    .play-button i:before {
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(47,50,59,.8);
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -25px;
+        margin-left: -25px;
+    }
+    .play-button_hover:hover i {
+        color: #444;
+    }
+    .play-button_hover:hover i:before {
+        background-color: #fff;
+    }
+
+    .position-relative{
+        position: relative;
+    }
+
+    .latest_post .media-left {
+        margin-right: 15px;
+        position: relative;
+    }
+
+.address-info .media>.pull-left, .comments .media-left, .latest_post .media-left, .meida-md .media-left, .metismenu>li>a, .sec-title {
+    padding-left: 6px;
+}
